@@ -137,3 +137,59 @@ h2{
   text-align:center;
   font-size:120px;
 }
+
+html{
+
+  scroll-behavior: smooth;
+}
+
+.footer-block a {
+  color: #d8fff1;
+  text-decoration: underline dotted;
+  transition: color 0.25;
+}
+
+.footer-block a:hover {
+  color: #84b780;
+}
+
+.footer-block p{
+  color: #d8fff1;
+  margin:0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #84b780;
+  margin-top: 20 px;
+  padding: 12px 0 8px 0;
+  font-size: 16px;
+  color: #c4e9db;
+  background: #294334;
+}
+
+/*Секція з наігацією*/
+.main-nav{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  background: #29433496;
+  color: #d8fff1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 2px 12px #29433460;
+  padding: 0 40px;
+  backdrop-filter: blur(4px);
+}
+
+.nav-links {
+  display: flex;
+  gap:32px;
+  list-style: none;
+}
